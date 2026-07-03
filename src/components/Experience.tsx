@@ -28,7 +28,7 @@ export const Experience: React.FC = () => {
   ];
 
   return (
-    <section id="experience" className="py-24 bg-white relative overflow-hidden">
+    <section id="experience" className="py-24 bg-brand-white relative overflow-hidden">
       {/* Decorative background grid */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#be123c05_1px,transparent_1px),linear-gradient(to_bottom,#be123c05_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none" />
 

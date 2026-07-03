@@ -33,8 +33,8 @@ export const TechStack: React.FC = () => {
       icon: (
         <svg viewBox="0 0 180 180" className="w-8 h-8 text-brand-dark" fill="none">
           <circle cx="90" cy="90" r="90" fill="currentColor"/>
-          <path d="M140 140L79.2 60H68v60h8V73.2l54.8 72.8c3.2-3.8 6-7.8 8-12z" fill="white"/>
-          <path d="M112 60h8v60h-8z" fill="white"/>
+          <path d="M140 140L79.2 60H68v60h8V73.2l54.8 72.8c3.2-3.8 6-7.8 8-12z" fill="var(--brand-bg)"/>
+          <path d="M112 60h8v60h-8z" fill="var(--brand-bg)"/>
         </svg>
       ),
       hoverBorderClass: 'hover:border-brand-dark/40',
@@ -72,8 +72,8 @@ export const TechStack: React.FC = () => {
       category: 'Relational Database',
       description: 'Advanced SQL database built for complex query execution, transactional integrity, and large scale data.',
       icon: (
-        <svg viewBox="0 0 100 100" className="w-8 h-8" fill="none">
-          <path d="M78 37.8c-2.4-7.5-9-15.6-17.7-18-5.7-1.5-12.3-.9-17.7.9C37.2 19 30.6 18.4 24.9 20c-8.7 2.4-15.3 10.5-17.7 18-3 9.6-1.5 22.8 4.2 30.9C19.8 79.5 35 84 50 84s30.2-4.5 38.6-15.1c5.7-8.1 7.2-21.3 4.2-30.9L78 37.8z" fill="#336791"/>
+        <svg viewBox="0 0 100 100" className="w-8 h-8 text-[#336791] dark:text-[#8baecf]" fill="none">
+          <path d="M78 37.8c-2.4-7.5-9-15.6-17.7-18-5.7-1.5-12.3-.9-17.7.9C37.2 19 30.6 18.4 24.9 20c-8.7 2.4-15.3 10.5-17.7 18-3 9.6-1.5 22.8 4.2 30.9C19.8 79.5 35 84 50 84s30.2-4.5 38.6-15.1c5.7-8.1 7.2-21.3 4.2-30.9L78 37.8z" fill="currentColor"/>
           <path d="M50 84V52.8c-5.7-2.1-10.8-6.3-14.1-11.7C32.7 36 32.7 30 36 24.9c3.3-5.1 8.4-9.3 14-11.4v-4.5c-7.8 2.1-14.7 7.2-18.9 14.1C27 30 27 37.8 31.1 44.7c4.2 6.9 11.1 12 18.9 14.1V84z" fill="#FFF" opacity="0.3"/>
         </svg>
       ),
@@ -133,7 +133,7 @@ export const TechStack: React.FC = () => {
           {techStack.map((tech, index) => (
             <div
               key={index}
-              className={`w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1.5rem)] xl:w-[calc(25%-1.5rem)] min-w-[270px] bg-white border border-brand-red-100/50 rounded-3xl p-8 flex flex-col justify-between hover:-translate-y-1.5 transition-all duration-300 group ${tech.hoverBorderClass} ${tech.hoverShadowClass}`}
+              className={`w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1.5rem)] xl:w-[calc(25%-1.5rem)] min-w-[270px] bg-brand-white border border-brand-red-100/50 rounded-3xl p-8 flex flex-col justify-between hover:-translate-y-1.5 transition-all duration-300 group ${tech.hoverBorderClass} ${tech.hoverShadowClass}`}
             >
               <div>
                 {/* Icon & Category */}

@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer id="contact" className="bg-brand-dark text-white relative overflow-hidden py-24">
+    <footer id="contact" className="bg-[#090d16] text-white relative overflow-hidden py-24">
       {/* Red ambient light effects */}
       <div className="absolute top-[-200px] left-1/2 transform -translate-x-1/2 w-[600px] h-[300px] bg-brand-red-700/20 rounded-full blur-[100px] pointer-events-none" />
 

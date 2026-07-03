@@ -61,7 +61,7 @@ export const Works: React.FC = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white border border-brand-red-100/50 rounded-3xl p-8 flex flex-col justify-between hover:border-brand-red-300 hover:shadow-xl transition-all duration-300 group"
+              className="bg-brand-white border border-brand-red-100/50 rounded-3xl p-8 flex flex-col justify-between hover:border-brand-red-300 hover:shadow-xl transition-all duration-300 group"
             >
               <div>
                 <span className="font-sans font-bold text-brand-red-600 text-[11px] uppercase tracking-widest bg-brand-red-50 px-3 py-1.5 rounded-full inline-block mb-6">

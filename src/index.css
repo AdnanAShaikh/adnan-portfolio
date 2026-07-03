@@ -2,13 +2,35 @@
 
 @import "tailwindcss";
 
+:root {
+  --brand-bg: #fcfbfa;
+  --brand-white: #ffffff;
+  --brand-dark: #0f172a;
+  --brand-muted: #475569;
+  --brand-accent-bg: #fff5f5;
+  --brand-red-50: #fef2f2;
+  --brand-red-100: #fee2e2;
+  --brand-red-200: #fecaca;
+}
+
+.dark {
+  --brand-bg: #090d16;
+  --brand-white: #131c2e;
+  --brand-dark: #f8fafc;
+  --brand-muted: #94a3b8;
+  --brand-accent-bg: #1e111d;
+  --brand-red-50: #1a0f12;
+  --brand-red-100: #2e151b;
+  --brand-red-200: #4a1d27;
+}
+
 @theme {
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-display: 'Outfit', sans-serif;
 
-  --color-brand-red-50: #fef2f2;
-  --color-brand-red-100: #fee2e2;
-  --color-brand-red-200: #fecaca;
+  --color-brand-red-50: var(--brand-red-50);
+  --color-brand-red-100: var(--brand-red-100);
+  --color-brand-red-200: var(--brand-red-200);
   --color-brand-red-300: #fca5a5;
   --color-brand-red-400: #f87171;
   --color-brand-red-500: #ef4444;
@@ -17,11 +39,11 @@
   --color-brand-red-800: #9f1239; /* rose-800 */
   --color-brand-red-900: #881337; /* rose-900 */
   
-  --color-brand-white: #ffffff;
-  --color-brand-bg: #fcfbfa; /* Warm paper-like white */
-  --color-brand-accent-bg: #fff5f5; /* Light warm rose background */
-  --color-brand-dark: #0f172a; /* Slate 900 */
-  --color-brand-muted: #475569; /* Slate 600 */
+  --color-brand-white: var(--brand-white);
+  --color-brand-bg: var(--brand-bg); /* Warm paper-like white */
+  --color-brand-accent-bg: var(--brand-accent-bg); /* Light warm rose background */
+  --color-brand-dark: var(--brand-dark); /* Slate 900 */
+  --color-brand-muted: var(--brand-muted); /* Slate 600 */
   
   --animate-float: float 6s ease-in-out infinite;
   --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;

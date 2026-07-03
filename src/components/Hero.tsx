@@ -82,7 +82,7 @@ export const Hero: React.FC = () => {
 
             {/* Stamp / Badge (bottom-right of hero in original) */}
             <div className="flex justify-center lg:justify-end items-center mt-6 lg:mt-12">
-              <div className="relative w-36 h-36 flex items-center justify-center bg-white p-2 rounded-full border border-brand-red-100 shadow-lg group hover:border-brand-red-300 transition-colors">
+              <div className="relative w-36 h-36 flex items-center justify-center bg-brand-white p-2 rounded-full border border-brand-red-100 shadow-lg group hover:border-brand-red-300 transition-colors">
 
                 {/* Rotating Text circular SVG */}
                 <svg

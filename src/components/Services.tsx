@@ -30,7 +30,7 @@ export const Services: React.FC = () => {
   ];
 
   return (
-    <section id="services" className="py-24 bg-white relative">
+    <section id="services" className="py-24 bg-brand-white relative">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
 
         {/* Header */}
@@ -51,7 +51,7 @@ export const Services: React.FC = () => {
               key={index}
               className="bg-brand-bg border border-brand-red-100/50 p-8 sm:p-10 rounded-3xl hover:border-brand-red-300 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group"
             >
-              <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center border border-brand-red-100 shadow-sm mb-8 group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 bg-brand-white rounded-2xl flex items-center justify-center border border-brand-red-100 shadow-sm mb-8 group-hover:scale-110 transition-transform">
                 {service.icon}
               </div>
               <h3 className="font-display font-bold text-xl sm:text-2xl text-brand-dark mb-4">
