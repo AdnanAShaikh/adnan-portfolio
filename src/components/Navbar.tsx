@@ -24,6 +24,9 @@ export const Navbar: React.FC = () => {
       }
     };
 
+    // Run check on mount in case page is refreshed while scrolled
+    handleScroll();
+
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
