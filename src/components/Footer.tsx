@@ -49,7 +49,7 @@ export const Footer: React.FC = () => {
 
             {/* Secondary Resume Action in Footer */}
             <a
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               download="Adnan_Shaikh_Resume.pdf"
               className="group inline-flex items-center justify-center gap-2 text-white/80 hover:text-brand-red-400 font-sans font-semibold text-[14px] transition-colors"
             >

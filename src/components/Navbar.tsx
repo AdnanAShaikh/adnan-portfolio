@@ -94,7 +94,7 @@ export const Navbar: React.FC = () => {
           </button>
 
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             download="Adnan_Shaikh_Resume.pdf"
             className="flex items-center gap-2 bg-brand-white hover:bg-brand-red-50 text-brand-red-600 border border-brand-red-200 px-5 py-2.5 rounded-full font-sans font-semibold text-[14px] transition-all duration-200 shadow-sm hover:shadow-md hover:border-brand-red-300"
           >
@@ -151,7 +151,7 @@ export const Navbar: React.FC = () => {
 
         <div className="flex flex-col gap-4">
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             download="Adnan_Shaikh_Resume.pdf"
             onClick={() => setIsOpen(false)}
             className="flex items-center justify-center gap-2 bg-brand-red-600 hover:bg-brand-red-700 text-white px-5 py-3.5 rounded-full font-sans font-semibold text-[15px] transition-all shadow-md hover:shadow-lg"

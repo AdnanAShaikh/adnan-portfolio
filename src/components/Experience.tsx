@@ -15,7 +15,7 @@ export const Experience: React.FC = () => {
       company: 'NOI Technologies',
       location: 'Jaipur, IN',
       duration: 'Sep 2024 - Mar 2026',
-      title: 'Junior Software Dev',
+      title: 'Software Dev',
       description:
         `Architect and lead
          frontend engineering for flagship enterprise 
