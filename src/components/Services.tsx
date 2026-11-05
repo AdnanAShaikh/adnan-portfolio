@@ -13,7 +13,7 @@ export const Services: React.FC = () => {
       icon: <Code2 size={28} className="text-brand-red-600" />,
       title: 'Frontend Engineering',
       description:
-        'Building scalable, high-performance web applications using React, Vite, TypeScript, and Tailwind CSS. Clean structure, type-safety, and modular component design.',
+        'Building scalable, incredible, high-performance web applications using React, Vite, TypeScript, and Tailwind CSS. Clean structure, type-safety, and modular component design.',
     },
     {
       icon: <CpuIcon size={28} className="text-brand-red-600" />,
